@@ -1,7 +1,9 @@
 # Make-Me-a-Playlist
 
 Type: Webpage
+
 Date: Feb 2022 - Apr 2022
+
 Tools: JavaScript, HTML, CSS, PHP
 
 Description:
