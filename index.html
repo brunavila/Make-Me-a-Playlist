@@ -1,0 +1,44 @@
+<head>
+    <meta charset="utf-8">
+    <title>Playlist generator</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="div-block-2">
+        <h1 class="heading">Make Me A Playlist</h1>
+        <div class="text-block-3">Please enter the information below:</div>
+        <div class="w-form">
+            <form id="generate-form" name="email-form">
+
+                <div class="input-wrapper">
+                    <label class="input-label">A song you like:</label>
+                    <input required="true" type="text" class="input w-input" placeholder="Habits of my heart"
+                        id="tracks">
+                </div>
+
+                <div class="input-wrapper">
+                    <label class="input-label">An artist you like:</label>
+                    <input required="true" type="text" class="input w-input" placeholder="Shawn Mendes" id="artists">
+                </div>
+
+                <div class="input-wrapper">
+                    <label class="input-label">A genre you like:</label>
+                    <input required="true" type="text" class="input w-input" placeholder="Pop" id="genres">
+                </div>
+
+                <div class="input-wrapper">
+                    <label class="input-label">A genre you want to get into:</label>
+                    <input required="true" type="text" class="input w-input" placeholder="Rock" id="genres2">
+                </div>
+
+                <input type="submit" value="MAKE ME A PLAYLIST" class="submit-button-2 w-button">
+            </form>
+        </div>
+        <div id="playlist-embed-wrapper">
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
